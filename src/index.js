@@ -20,7 +20,6 @@ window.addEventListener("DOMContentLoaded", updateTooltip);
 
 const animatedElements = document.querySelectorAll("[data-animate]");
 
-
 const observer = new IntersectionObserver((entries, observer) => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
